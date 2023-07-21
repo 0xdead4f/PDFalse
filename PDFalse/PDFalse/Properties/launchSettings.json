@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PDFalse": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\teguh\\OneDrive\\TA_Ngurah\\Aplikasi\\app\\PDFalse\\PDFalse\\bin\\Debug\\net6.0-windows\\test.pdf"
+    }
+  }
+}

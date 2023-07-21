@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>pdf.png</PackageIcon>
+    <ApplicationIcon>Hopstarter-Soft-Scraps-Adobe-PDF-Document.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bean_Eater-1s-200px.gif" />
+    <None Remove="checklist.png" />
+    <None Remove="exit-full-screen.png" />
+    <None Remove="gear.png" />
+    <None Remove="log.png" />
+    <None Remove="logo.png" />
+    <None Remove="magnifying.gif" />
+    <None Remove="pdf.png" />
+    <None Remove="warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Hopstarter-Soft-Scraps-Adobe-PDF-Document.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Downloads\pdf.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LoadingSpinner.WPF" Version="1.0.0" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Bean_Eater-1s-200px.gif" />
+    <Resource Include="checklist.png" />
+    <Resource Include="exit-full-screen.png" />
+    <Resource Include="gear.png" />
+    <Resource Include="log.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="magnifying.gif" />
+    <Resource Include="pdf.png" />
+    <Resource Include="warning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

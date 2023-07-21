@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LgS3Er83N0xbFsWTMh0Jc/7zfqG4anY5iHEfgbQOJjyy/YALbUjTSLoyfIx/awrJZS6vB/Zp7oe8sBI65mKwEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\teguh\\OneDrive\\TA_Ngurah\\Aplikasi\\app\\PDFalse\\PDFalse\\PDFalse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\teguh\\.nuget\\packages\\loadingspinner.wpf\\1.0.0\\loadingspinner.wpf.1.0.0.nupkg.sha512",
+    "C:\\Users\\teguh\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ksybKUvdczG3kBN2wHa6Iwod9izyGTrBkp0ZE3zOZ6bnS0pqTWs1Vk9aCOuv2VvFHAPVqfP4HHU/uXrJtzlC9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\teguh\\OneDrive\\TA_Ngurah\\Aplikasi\\app\\PDFalse\\PDFalse\\PDFalse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\teguh\\.nuget\\packages\\loadingspinner.wpf\\1.0.0\\loadingspinner.wpf.1.0.0.nupkg.sha512",
+    "C:\\Users\\teguh\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512",
+    "C:\\Users\\teguh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.3\\microsoft.netcore.app.runtime.win-x86.6.0.3.nupkg.sha512",
+    "C:\\Users\\teguh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.3\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.3.nupkg.sha512",
+    "C:\\Users\\teguh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.3\\microsoft.aspnetcore.app.runtime.win-x86.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

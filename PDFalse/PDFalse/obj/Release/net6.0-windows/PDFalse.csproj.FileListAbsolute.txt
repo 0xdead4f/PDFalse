@@ -1,0 +1,55 @@
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.exe
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.deps.json
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.runtimeconfig.json
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.pdb
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\LoadingSpinnerControl.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\WpfAnimatedGif.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.csproj.AssemblyReference.cache
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\ucSpinnerApple.baml
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\ucSpinnerApple.g.cs
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\UserControl1.g.cs
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\App.g.cs
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse_MarkupCompile.cache
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse_MarkupCompile.lref
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\UserControl1.baml
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.g.resources
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.AssemblyInfoInputs.cache
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.AssemblyInfo.cs
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.csproj.CoreCompileInputs.cache
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.csproj.CopyComplete
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\refint\PDFalse.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.pdb
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.genruntimeconfig.cache
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\ref\PDFalse.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.exe
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.deps.json
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.runtimeconfig.json
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\PDFalse.pdb
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\LoadingSpinnerControl.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\bin\Release\net6.0-windows\WpfAnimatedGif.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.csproj.AssemblyReference.cache
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\App.g.cs
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse_MarkupCompile.cache
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse_MarkupCompile.lref
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.g.resources
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.AssemblyInfoInputs.cache
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.AssemblyInfo.cs
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.csproj.CoreCompileInputs.cache
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.csproj.CopyComplete
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\refint\PDFalse.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.pdb
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse.genruntimeconfig.cache
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\ref\PDFalse.dll
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\Setting.g.cs
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\PDFalse_Content.g.cs
+C:\Users\teguh\OneDrive\TA_Ngurah\Aplikasi\app\PDFalse\PDFalse\obj\Release\net6.0-windows\Setting.baml

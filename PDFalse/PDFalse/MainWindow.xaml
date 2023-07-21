@@ -1,0 +1,91 @@
+﻿<Window x:Class="PDFalse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:media="http://schemas.microsoft.com/winfx/2006/xaml/presentation/media"
+        xmlns:local="clr-namespace:PDFalse"
+        MouseLeftButtonDown="Window_MouseDown"
+        
+        mc:Ignorable="d" Height="600" Width="400"
+        Background="White" WindowStartupLocation="Manual" WindowStyle="None" ResizeMode="CanResizeWithGrip" Topmost="True" ShowInTaskbar="False" Icon="/pdf.png">
+    <Window.Resources>
+        <Storyboard x:Key="FadeInStoryboard">
+            <DoubleAnimation Storyboard.TargetName="gif"  Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.7" />
+        </Storyboard>
+        <Storyboard x:Key="FadeOutStoryboard" Completed="FadeOutStoryboard_Completed">
+            <DoubleAnimation Storyboard.TargetName="gif" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeOutStoryboardIdle">
+            <DoubleAnimation Storyboard.TargetName="gif" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5" />
+        </Storyboard>
+        
+        <Storyboard x:Key="FadeInStoryboardpdf">
+            <DoubleAnimation Storyboard.TargetName="pdf"  Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.7" />
+        </Storyboard>
+        <Storyboard x:Key="FadeOutStoryboardpdf">
+            <DoubleAnimation Storyboard.TargetName="pdf" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInChecklist">
+            <DoubleAnimation Storyboard.TargetName="checklist" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeOutScanning">
+            <DoubleAnimation Storyboard.TargetName="scan_teks" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeinNofileTeks">
+            <DoubleAnimation Storyboard.TargetName="teks_no_file" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInresult_good">
+            <DoubleAnimation Storyboard.TargetName="result_good" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInresult_bad">
+            <DoubleAnimation Storyboard.TargetName="result_bad1" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInButton_good">
+            <DoubleAnimation Storyboard.TargetName="button_good" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInWarning">
+            <DoubleAnimation Storyboard.TargetName="warning" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInBad2">
+            <DoubleAnimation Storyboard.TargetName="result_bad2" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInbutton_close">
+            <DoubleAnimation Storyboard.TargetName="button_close" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+        <Storyboard x:Key="FadeInbutton_keep_open">
+            <DoubleAnimation Storyboard.TargetName="button_keep_open" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5" />
+        </Storyboard>
+    </Window.Resources>
+
+    <Grid>
+
+        <Label x:Name="scan_teks" Content="Scanning...&#xA;" HorizontalAlignment="Center" Margin="0,325,0,0" VerticalAlignment="Top" FontFamily="Roboto" FontSize="20"/>
+        <Image x:Name="checklist" Source="checklist.png" Margin="134,182,134,270" Opacity="0"/>
+        <Label x:Name="result_good" Content="Looks like the PDF is Safe&#xA;" HorizontalAlignment="Center" Margin="0,325,0,0" VerticalAlignment="Top" FontFamily="Roboto" FontSize="20" Opacity="0"/>
+        <Button x:Name="button_good" Content="Open" HorizontalAlignment="Center" Margin="0,388,0,0" VerticalAlignment="Top" Height="45" Width="112" FontFamily="Roboto Medium" FontSize="18" BorderBrush="White" Opacity="0" FontStretch="Normal" BorderThickness="0,0,0,0" Background="#FF3CDB7F" Click="Button_Click"/>
+        <Label x:Name="result_bad1" Content="The document detected as Malicious!" HorizontalAlignment="Center" Margin="0,337,0,0" VerticalAlignment="Top" FontFamily="Roboto" FontSize="20" Opacity="0"/>
+        <Button x:Name="button_keep_open"  Content="Keep Open" HorizontalAlignment="Left" Margin="232,404,0,0" VerticalAlignment="Top" Height="45" Width="112" FontFamily="Roboto Medium" FontSize="18" BorderBrush="White" Opacity="0" FontStretch="Normal" BorderThickness="0,0,0,0" Background="#FFF3C95D" Click="Button_Click" Foreground="White"/>
+        <Button x:Name="button_close" Click="Button_Close_Click" Content="Close" HorizontalAlignment="Left" Margin="56,404,0,0" VerticalAlignment="Top" Height="45" Width="112" FontFamily="Roboto Medium" FontSize="18" BorderBrush="White" Opacity="0" FontStretch="Normal" BorderThickness="0,0,0,0" Background="#FFEF3D52" Foreground="White" />
+        <Label x:Name="result_bad2" Content="Do you still want to open the document ?" HorizontalAlignment="Center" Margin="0,361,0,0" VerticalAlignment="Top" FontFamily="Roboto Light" FontSize="14" Opacity="0"/>
+        <Label Content="PDF document scanner powered by AI" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" FontFamily="Roboto Light" FontSize="10"/>
+        <Image HorizontalAlignment="Center" Height="48" Margin="0,93,0,0" VerticalAlignment="Top" Width="254" Source="/log.png"/>
+        <Image x:Name="warning" HorizontalAlignment="Center" Height="132" Opacity="0" VerticalAlignment="Top" Width="132" Source="/warning.png" Margin="0,182,0,0"/>
+        <Image x:Name="pdf" HorizontalAlignment="Center" Height="142" Margin="0,173,0,0" VerticalAlignment="Top" Width="142" Source="/pdf.png"/>
+        <Image x:Name="gif" gif:ImageBehavior.AnimatedSource="/magnifying.gif" Margin="124,160,124,256" Opacity="1" Source="/magnifying.gif" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="27" Margin="345,10,0,0" VerticalAlignment="Top" Width="27" Source="/exit-full-screen.png" MouseDown="Button_Close_Click"/>
+        <Image HorizontalAlignment="Left" Height="27" Margin="313,10,0,0" VerticalAlignment="Top" Width="27" Source="/gear.png" MouseDown="Button_Setting_Click"/>
+        <Label x:Name="teks_no_file" Content="There is no file to Scan" HorizontalAlignment="Center" Margin="0,325,0,0" VerticalAlignment="Top" FontFamily="Roboto" FontSize="20" Opacity="0"/>
+    </Grid>
+</Window>

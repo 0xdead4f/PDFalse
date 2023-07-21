@@ -1,0 +1,7 @@
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\PDFalse.exe
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\PDFalse.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\PDFalse.deps.json
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\PDFalse.runtimeconfig.json
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\PDFalse.pdb
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\LoadingSpinnerControl.dll
+C:\Users\teguh\OneDrive\TA Ngurah\Aplikasi\test\WpfAnimatedGif.dll
